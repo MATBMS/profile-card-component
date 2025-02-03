@@ -1,0 +1,97 @@
+/* == GENERAL == */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html,
+body {
+  height: 100%;
+  font-family: Arial, sans-serif;
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  font-weight: normal;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  display: block;
+}
+
+ul,
+ol {
+  list-style: none;
+}
+
+a {
+  text-decoration: none;
+  color: inherit;
+}
+
+button {
+  background: none;
+  border: none;
+  cursor: pointer;
+}
+
+/* == TYPOGRAPHY == */
+
+
+/* == LAYOUT == */
+main {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-image: url(./images/bg-pattern-top.svg), url(./images/bg-pattern-bottom.svg);
+  background-position: -200px -200px, 130% 400%;
+  background-repeat: no-repeat, no-repeat;
+  background-size: 50%, 50%;
+  background-color: #19A1AE;
+}
+
+.container {
+  width: 545px;
+  border-radius: 15px;
+  background-color: #fff;
+}
+
+/* == HEADER == */
+.card-header {
+  height: 140px;
+  background-image: url(./images/bg-pattern-card.svg);
+  border-radius: 15px 15px 0px 0px;
+}
+
+/* == PROFILE == */
+.profile {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
+
+/* == PROFILE IMAGE == */
+.profile-img {
+  height: 50px;
+  width: 50px;
+  border-radius: 50%;
+}
+
+/* == STATS == */
+.stats {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+}
