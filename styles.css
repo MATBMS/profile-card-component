@@ -92,10 +92,11 @@ main {
   background-color: #19A1AE;
 }
 
-.container {
+.profile-card {
   width: 350px;
   border-radius: 15px;
   background-color: #fff;
+  box-shadow: 0 20px 15px rgba(0, 0, 0, 0.1);
 }
 
 /* == HEADER == */
@@ -151,7 +152,7 @@ main {
 }
 
 @media (max-width: 375px) {
-  .container {
+  .profile-card {
     width: 326px;
   }
 
