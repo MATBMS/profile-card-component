@@ -149,3 +149,20 @@ main {
   gap: 46px;
   padding-bottom: 24px;
 }
+
+@media (max-width: 375px) {
+  .container {
+    width: 326px;
+  }
+
+  main {
+    background-image: url(./assets/images/bg-pattern-top.svg), url(./assets/images/bg-pattern-bottom.svg);
+    background-position: -200px -200px, 160px 350px;
+    background-repeat: no-repeat, no-repeat;
+    background-size: 110%, 180%;
+  }
+
+  .location {
+    margin-top: 8px;
+  }
+}
